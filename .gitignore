@@ -1,0 +1,15 @@
+# Compiler output
+out/
+cache/
+*.bin
+*.abi
+
+# Dependencies
+lib/
+node_modules/
+
+# Environment
+.env
+
+# OS
+.DS_Store
