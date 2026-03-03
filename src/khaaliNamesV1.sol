@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.28;
 
-import {IDictionary} from "./IDictionary.sol";
+import {IDictionary} from "./dictionary/IDictionary.sol";
 
 /// @title khaaliNamesV1
 /// @notice On-chain random name generator. Generates human-readable names from
