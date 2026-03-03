@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.28;
 
-import {IDictionary} from "./IDictionary.sol";
+import {IkhaaliDictionaryV1} from "./IkhaaliDictionaryV1.sol";
 import {SSTORE2} from "solady/utils/SSTORE2.sol";
 
-/// @title Dictionary
+/// @title khaaliDictionaryV1
 /// @notice On-chain dictionary of words for khaaliNames
-abstract contract Dictionary is IDictionary {
+abstract contract khaaliDictionaryV1 is IkhaaliDictionaryV1 {
 
     /// @notice the length of each word in bytes
     uint256 private constant _WORD_LENGTH = 16;

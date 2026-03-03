@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.28;
 
-/// @title IDictionary
+/// @title IkhaaliDictionaryV1
 /// @notice Interface for on-chain word dictionaries used by khaaliNames
-interface IDictionary {
+interface IkhaaliDictionaryV1 {
 
     error DictionaryIndexOutOfBounds(
         address dictionary,
