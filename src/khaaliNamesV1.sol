@@ -59,8 +59,8 @@ contract khaaliNamesV1 is IkhaaliNamesV1 {
             return _generate(recipient, NameType.COLOR_ANIMAL, 5);
         } else if (milestone == Milestone.ADJ_ANIMAL_2) {
             return _generate(recipient, NameType.ADJECTIVE_ANIMAL, 2);
-        } else if (milestone == Milestone.COLOR_ADJ_ANIMAL_3) {
-            return _generate(recipient, NameType.COLOR_ADJECTIVE_ANIMAL, 3);
+        } else if (milestone == Milestone.ADJ_COLOR_ANIMAL_3) {
+            return _generate(recipient, NameType.ADJECTIVE_COLOR_ANIMAL, 3);
         }
         revert UnsupportedMilestone();
     }

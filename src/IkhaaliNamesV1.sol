@@ -10,8 +10,8 @@ enum NameType {
     ADJECTIVE,               // 3 - 1200 unique names
     COLOR_ANIMAL,            // 4 - 50 * 350 = 17_500 unique names
     ADJECTIVE_ANIMAL,        // 5 - 1200 * 350 = 420_000 unique names
-    COLOR_ADJECTIVE_ANIMAL,  // 6 - 50 * 1200 * 350 = 21_000_000 unique names
-    ADJECTIVE_COLOR_ANIMAL   // 7 - 1200 * 50 * 350 = 21_000_000 unique names
+    ADJECTIVE_COLOR_ANIMAL,  // 6 - 1200 * 50 * 350 = 21_000_000 unique names
+    COLOR_ADJECTIVE_ANIMAL   // 7 (non-native) - 21_000_000 unique names
 }
 
 /// @notice Opinionated milestone presets that map to (NameType, n) pairs.
@@ -21,7 +21,7 @@ enum Milestone {
     ANIMAL_30,           // n in [1,30] :: first ~10k users
     COLOR_ANIMAL_5,      // n in [1,5]  :: next ~90k users
     ADJ_ANIMAL_2,        // n in [1,2]  :: next ~900k users
-    COLOR_ADJ_ANIMAL_3   // n in [1,3]  :: next ~49m users
+    ADJ_COLOR_ANIMAL_3   // n in [1,3]  :: next ~49m users
 }
 
 /// @title IkhaaliNamesV1
