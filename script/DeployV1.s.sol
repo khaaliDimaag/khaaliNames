@@ -12,13 +12,16 @@ import {khaaliNamesV1} from "../src/khaaliNamesV1.sol";
 
 contract DeployV1 is Script {
 
+    uint256 constant WORD_LENGTH = 16;
+    
     uint256 constant COLOR_COUNT = 50;
     uint256 constant ANIMAL_COUNT = 350;
     uint256 constant ADJECTIVE_COUNT = 1200;
-    uint256 constant WORD_LENGTH = 16;
+
+    uint256 immutable DEPLOYER_KEY = vm.envUint("DEPLOYER_PRIVATE_KEY");
 
     function run() external {
-        vm.startBroadcast();
+        vm.startBroadcast(DEPLOYER_KEY);
         uint256 gasBefore = gasleft();
 
         // Deploy dictionaries

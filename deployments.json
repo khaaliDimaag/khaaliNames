@@ -2,26 +2,26 @@
   "11155111": {
     "dictionaries": {
       "adjectives": {
-        "address": "0x81C4B4a70FE4f4b4c29C67EA4713C66246C81865",
+        "address": "0x96CAd876677380B1200Cf0f6d381d83554E8bCD0",
         "count": 1200,
-        "data": "0x03ed764e19d76e9c8BEFEB6e5F0fe068752Aa1Dc",
+        "data": "0x466330d4854517fEaD880551d798eCAdAf5d514b",
         "size": 19201
       },
       "animals": {
-        "address": "0x866F5219Fe871fba300A7705D94f1055729E6F32",
+        "address": "0xa48c9d7Fc9FB4b7f136cFB5F468114C8D46A76f8",
         "count": 350,
-        "data": "0xc695C8da75C95a400571410661d5aE48D1497151",
+        "data": "0x2176cF1285238ff225ca60937253523972Eb7f47",
         "size": 5601
       },
       "colors": {
-        "address": "0x5501BD504d31e4132c90ABB6f22B2200cD51582d",
+        "address": "0x4a61FFC3B76bCc9D3A1565e98EbF60b88BC65114",
         "count": 50,
-        "data": "0x7029818F3F33cc6B7a99c98B5c9B9908A71CedFD",
+        "data": "0xE6beF2CdEA6DB10E99B03551a5759552Cc252B65",
         "size": 801
       }
     },
-    "gasUsed": 15459553,
-    "khaaliNamesV1": "0xe0E3D90fFE1433E9F41e5284Ec35450Ca543BE96",
-    "timestamp": 1772584848
+    "gasUsed": 15568055,
+    "khaaliNamesV1": "0xa0715EC44766D28ec2Bc8c7e94716A202937d4F2",
+    "timestamp": 1775257344
   }
 }
