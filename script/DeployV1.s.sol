@@ -39,8 +39,8 @@ contract DeployV1 is Script {
 
         // Deploy khaaliNamesV1
         khaaliNamesV1 names = new khaaliNamesV1(
-            IkhaaliDictionaryV1(address(animalDict)),
             IkhaaliDictionaryV1(address(colorDict)),
+            IkhaaliDictionaryV1(address(animalDict)),
             IkhaaliDictionaryV1(address(adjDict))
         );
         console.log("khaaliNamesV1:", address(names));

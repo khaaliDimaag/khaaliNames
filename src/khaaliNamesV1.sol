@@ -10,17 +10,17 @@ import {IkhaaliNamesV1, NameType, Milestone} from "./IkhaaliNamesV1.sol";
 /// @dev Deployed once with immutable dictionary references. Anyone can call it.
 contract khaaliNamesV1 is IkhaaliNamesV1 {
 
-    IkhaaliDictionaryV1 public immutable animalDict;
-    IkhaaliDictionaryV1 public immutable colorDict;
-    IkhaaliDictionaryV1 public immutable adjectiveDict;
+    IkhaaliDictionaryV1 public immutable colorDict; // 50 colors
+    IkhaaliDictionaryV1 public immutable animalDict; // 350 animals
+    IkhaaliDictionaryV1 public immutable adjectiveDict; // 1200 adjectives
 
     constructor(
-        IkhaaliDictionaryV1 _animalDict,
         IkhaaliDictionaryV1 _colorDict,
+        IkhaaliDictionaryV1 _animalDict,
         IkhaaliDictionaryV1 _adjectiveDict
     ) {
-        animalDict = _animalDict;
         colorDict = _colorDict;
+        animalDict = _animalDict;
         adjectiveDict = _adjectiveDict;
     }
 
