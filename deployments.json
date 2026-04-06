@@ -1,0 +1,27 @@
+{
+  "11155111": {
+    "dictionaries": {
+      "adjectives": {
+        "address": "0x96CAd876677380B1200Cf0f6d381d83554E8bCD0",
+        "count": 1200,
+        "data": "0x466330d4854517fEaD880551d798eCAdAf5d514b",
+        "size": 19201
+      },
+      "animals": {
+        "address": "0xa48c9d7Fc9FB4b7f136cFB5F468114C8D46A76f8",
+        "count": 350,
+        "data": "0x2176cF1285238ff225ca60937253523972Eb7f47",
+        "size": 5601
+      },
+      "colors": {
+        "address": "0x4a61FFC3B76bCc9D3A1565e98EbF60b88BC65114",
+        "count": 50,
+        "data": "0xE6beF2CdEA6DB10E99B03551a5759552Cc252B65",
+        "size": 801
+      }
+    },
+    "gasUsed": 15568055,
+    "khaaliNamesV1": "0xa0715EC44766D28ec2Bc8c7e94716A202937d4F2",
+    "timestamp": 1775257344
+  }
+}
