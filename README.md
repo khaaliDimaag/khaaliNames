@@ -1,5 +1,15 @@
-# khaaliNames
+# khaaliNamesV1
 > An onchain library for generating unique, human-readable names
+
+---
+
+> [!IMPORTANT]
+> **ARCHIVAL NOTE**
+> 
+> This repository is now archived! \
+> Please refer to [khaaliNaames-eth](https://github.com/khaaliDimaag/khaaliNames-eth/) for latest version of contracts!
+
+---
 
 `khaaliNames` is an onchain name generator developed for [khaaliDimaag
 projects](https://github.com/khaaliDimaag) to generate random usernames by combining words from 
